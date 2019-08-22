@@ -1,0 +1,20 @@
+
+SELECT sa.* FROM submitted_answers sa 
+JOIN (
+	SELECT AAB.employee_id, AAB.course_id, AAB.question_id, MAX(AAB.attempt) AS lattempt 
+	FROM (
+		SELECT AA.* FROM (
+			SELECT sa.employee_id, sa.course_id, sa.question_id, sa.date_submitted, sa.attempt 
+			FROM submitted_answers sa 
+			JOIN (
+				SELECT employee_id, course_id, MAX(question_id) AS lquestion_id
+				FROM submitted_answers 
+				GROUP BY employee_id, course_id
+			) A ON sa.employee_id=A.employee_id AND sa.question_id=A.lquestion_id
+		) AA 
+		JOIN 
+			(SELECT MAX(question_id) AS lquestion_id, course_id FROM questions GROUP BY course_id) B 
+		ON AA.course_id=B.course_id	
+		WHERE AA.question_id=B.lquestion_id) AAB
+	GROUP BY AAB.employee_id, AAB.course_id, AAB.question_id
+) AABC ON sa.employee_id=AABC.employee_id AND sa.course_id=AABC.course_id AND sa.question_id=AABC.question_id AND sa.attempt=AABC.lattempt

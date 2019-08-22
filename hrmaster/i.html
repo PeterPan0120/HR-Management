@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en">
+    <head>
+        <title>HR Master</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0">
+
+        <META HTTP-EQUIV="EXPIRES" CONTENT="Mon, 22 Jul 2002 11:12:01 GMT" />
+        <meta http-equiv="Last-Modified" content="Sun, 06 Nov 2005 14:59:42 GMT">
+        <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="no-cache, must-revalidate" />
+        <META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE">
+
+        <!-- <link rel="shortcut icon" type="image/x-icon" href=""> -->
+        <link rel="stylesheet" href="webroot/css/bootstrap.min.css" type="text/css" media="all">
+        <link rel="stylesheet" href="webroot/css/styles.css" type="text/css" media="all">
+        <link rel="stylesheet" href="webroot/css/style.css" type="text/css" media="all">
+        <!--- New styles gr -->
+        <link rel="stylesheet" href="assets/css/styles.css" type="text/css" media="all">
+
+        <link rel="stylesheet" href="webroot/css/custom.css" type="text/css" media="all">
+        <link rel="stylesheet" href="webroot/css/flexslider.css" type="text/css" media="all">
+
+    </head>
+
+
+<body ng-app="hrmasterApp">
+    <div id="wrapper">
+        <!-- top-nav -->
+        <ng-include src="'assets/templates/_navigation.html'"></ng-include>
+        <ng-include src="'assets/templates/_navigationLoggedin.html'"></ng-include>
+
+        <!-- header -->
+        <ng-include src="'assets/templates/_header.html'"></ng-include>
+
+        <!-- main -->
+        <div class="main" ng-view></div>
+
+        <ng-include src="'assets/templates/_footer.html'"></ng-include>
+
+    </div>
+
+    <script src="assets/js/angular1.5.9.min.js"></script>
+    <script src="assets/js/angular-route.min.js"></script>
+    <script src="assets/js/angular-sanitize.min.js"></script>
+    <script src="assets/js/angular-cookies.min.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/services.js"></script>
+    <script src="assets/js/controllers.js"></script>
+</body>
+
+</html>

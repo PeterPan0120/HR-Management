@@ -1,0 +1,11 @@
+[26-Jun-2019 07:38:29 UTC] PHP Notice:  Trying to get property 'account_id' of non-object in /home/hrmaster/public_html/assets/php/transaction.class.php on line 4897
+[26-Jun-2019 07:43:05 UTC] PHP Notice:  Trying to get property 'account_id' of non-object in /home/hrmaster/public_html/assets/php/transaction.class.php on line 4897
+[26-Jun-2019 07:45:50 UTC] PHP Notice:  Trying to get property 'account_id' of non-object in /home/hrmaster/public_html/assets/php/transaction.class.php on line 4897
+[26-Jun-2019 07:46:14 UTC] PHP Notice:  Trying to get property 'account_id' of non-object in /home/hrmaster/public_html/assets/php/transaction.class.php on line 4897
+[26-Jun-2019 23:15:08 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/hrmaster/public_html/assets/php/transaction.class.php on line 3731
+[26-Jun-2019 23:15:08 UTC] PHP Notice:  Undefined variable: _SESSION in /home/hrmaster/public_html/assets/php/transaction.class.php on line 3732
+[27-Jun-2019 05:59:21 UTC] PHP Notice:  Undefined index: type in /home/hrmaster/public_html/assets/php/course.class.php on line 172
+[27-Jun-2019 05:59:21 UTC] PHP Notice:  Undefined variable: directory in /home/hrmaster/public_html/assets/php/course.class.php on line 179
+[27-Jun-2019 05:59:21 UTC] PHP Notice:  Undefined index: fileToUpload in /home/hrmaster/public_html/assets/php/course.class.php on line 181
+[27-Jun-2019 05:59:21 UTC] PHP Notice:  Undefined variable: directory in /home/hrmaster/public_html/assets/php/course.class.php on line 194
+[27-Jun-2019 06:34:01 UTC] PHP Notice:  Undefined property: stdClass::$video in /home/hrmaster/public_html/assets/php/course.class.php on line 111

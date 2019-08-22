@@ -1,0 +1,11 @@
+title: Upgrade a LMS and create a reports page
+required skills: php, javascript, angularJS, ajax
+budget: USD 15
+description:
+I have a website that primarily uses JavaScript, Angular JS version 1, PHP and SASS… It is built around a core system where page permissions are allocated to a role, and then that role is allocated to a user_id. The user_id is then linked to an account_id. 
+
+The site has a LMS which requires some bug fixes and additional functions
+
+Additionally I need a reports page for this function (to built in angularJS). I already have similar reports page on the site for another area where AJAX calls collect the data and chartsjs.org manages the API's. 
+
+I am looking for Developer who has solid php, ajax and Angular JS skills and, who is a genuine freelancer (not business) looking for “filler work” in their off time.

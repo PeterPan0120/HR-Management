@@ -1,0 +1,11 @@
+www.hrmaster.com.au
+U: dev@ccount69
+P: dev@ccount69
+
+
+ftp and cpanel
+hrmaster.com.au/cpanel
+
+U: hrmaster
+P: zHGXzBYC5r_Z
+thisisanoldpassword(old)

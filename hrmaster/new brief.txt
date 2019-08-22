@@ -1,0 +1,15 @@
+ok, with this new brief i am thinking. I have $500 AUD ....... 
+
+i am thinking about modifying the Injury Reports - Geoff had created those reports but the format is not consistent with the reports that you did and I need them to be like your format. 
+
+I then need 2 angular new reports which tells me how much time and money the injury has cost... But the graph needs to look nice like stacked chat with line. I can't be sure until i see what is there but the site id down
+
+So to do this, I need to also link the call log to injury reports... NOW this was already done by a previous dev 1 year ago but it never worked properly so it was later removed. Basically, if i entered an injury into the injury register, i could leave logs in the call log for that PARTICULAR injury... so my time on call would be attributed to that injury.
+
+the drop down option in call log for workers comp needed to be adjusted so it had a sub menu... it might still be in the code, i am not sure. 
+
+i need to add a new form filed called employee code in employee work details and a function which echos the persons name on a form when edit selected (in 3 areas)...
+
+I also need to clean up this security issue today for another $100 and remove the public password and clean the site so the vulnerable files are gone
+
+but that is the gist of what i am thinking of - when the site is back up i can revisit this
